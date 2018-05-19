@@ -20,7 +20,7 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
-
+h2{font-size: 30px;}
 /* 为主标题定位和添加样式
 
 你可能发现了我们在页面上方有一个可怕的间隙。
@@ -37,12 +37,13 @@ h1 {
 第三个像素值设置了阴影模糊的距离（越大的值表示越模糊）
 第四个值设置了阴影的颜色*/
 
-h1 {
+h1, h2 {
   margin: 0;
   padding: 20px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
+
 
 /*将使图像居中来让它变得更美观。
 我们可以重新使用 margin: 0 auto 一次，但是我们还要做其他调整。
