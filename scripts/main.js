@@ -25,7 +25,7 @@ myImage.onclick = function() {
 欢迎信息会由Web Storage API保存下来，
 即使用户关闭页面之后再重新打开此页面，我们仍然可以得到之前的信息。*/
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+var myHeading = document.querySelector('h2');
 /*函数包含了一个 prompt() 函数， 会弹出一个对话框，
 有一点像 alert() 只不过 prompt() 需要用户输入数据,，
 而且在用户点击 OK 后将数据存储在变量里。
@@ -48,7 +48,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = storedName;
 }
 
 

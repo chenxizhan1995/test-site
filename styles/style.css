@@ -16,11 +16,11 @@ body {
 /*现在我们将要为 HTML 中 body 元素内的 (<h1>, <li>, 和 <p>)元素设置字体尺寸。
 我们也会将标题居中显示，同时为 body 元素内的内容设置行高和间距，来让页面可读性更高。*/
 /*你可以调整这些 px 值到任何你喜欢的值，来让你的设计更符合你的心意，不过通常你的设计应该看起来像这样：*/
-h1 {
+h1, h2 {
   font-size: 60px;
   text-align: center;
 }
-h2{font-size: 30px;}
+h2{font-size: 40px;}
 /* 为主标题定位和添加样式
 
 你可能发现了我们在页面上方有一个可怕的间隙。
@@ -39,10 +39,11 @@ h2{font-size: 30px;}
 
 h1, h2 {
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
+h2{ text-shadow:2px 2px 2px black; }
 
 
 /*将使图像居中来让它变得更美观。
